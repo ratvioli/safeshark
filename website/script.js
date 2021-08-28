@@ -31,12 +31,29 @@ video.addEventListener('play', () => {
 })
 
 
-var alertsound = new Audio('alertjingle.mp3');
-var playSound = function() {
-    if (faceapi.scoreThreshold < 0.5 ) {
-    alertsound.play();
-    console.log("Alert Sound Played")
-    }
-}
 
-playSound();
+
+//var alertsound = new Audio('alertjingle.mp3');
+//var playSound = async function() {
+//    
+//        if (faceapi.scoreThreshold < 0.5 ) {
+//            alertsound.play();
+//            console.log("Alert Sound Played")
+//            break;
+//        }
+        
+    
+   
+//}
+
+// const interval = setInterval(function() {
+//     if (faceapi.scoreThreshold < 0.5 ) {
+//         alertsound.play();
+//         console.log("Alert Sound Played")
+//         break;
+//     }
+// }, 1000);
+ 
+//clearInterval(interval); 
+
+//playSound();
