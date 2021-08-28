@@ -1,10 +1,21 @@
+
 body {
-    background: rgb(114,226,255);
     background: linear-gradient(155deg, rgba(114,226,255,1) 0%, rgba(7,20,158,1) 97%);
-    padding: 0;
+    padding: 10;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
+}
+canvas {
+    position: absolute;
+    border-radius: 3px;
+}
+img{
+    flex-direction: column;
+}
+.webcam{
+    margin-top: 60px;
+    flex-direction: column;
 }
