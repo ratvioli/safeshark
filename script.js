@@ -40,11 +40,13 @@ video.addEventListener('play', () => {
 //            alertsound.play();
 //            console.log("Alert Sound Played")
 //            break;
-//        }
-        
-    
-   
+//        }  
 //}
+
+var alertplay = function() {
+    if (faceapi.scoreThreshold < 0.5) {
+        playAudio("alertjingle.mp3");
+}
 
 // const interval = setInterval(function() {
 //     if (faceapi.scoreThreshold < 0.5 ) {
