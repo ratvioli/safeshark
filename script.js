@@ -43,10 +43,10 @@ video.addEventListener('play', () => {
 //        }  
 //}
 
-var alertplay = function() {
-    if (faceapi.scoreThreshold < 0.5) {
-        playAudio("alertjingle.mp3");
-}
+//var alertplay = function() {
+//    if (faceapi.scoreThreshold < 0.5) {
+//        playAudio("alertjingle.mp3");
+//}
 
 // const interval = setInterval(function() {
 //     if (faceapi.scoreThreshold < 0.5 ) {
